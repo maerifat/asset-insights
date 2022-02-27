@@ -4,19 +4,21 @@ cat filo.txt| tr -d "]" | awk -F "[" 'BEGIN{ print "\
 .hoverTable td{ padding:7px\; border:#0e7094 1px solid\; } \
 .hoverTable tr{ background: white\; } \
 .hoverTable tr:hover { background-color: #ffff99\; } \
-.myInput \{\
+#myInput {\
   background-position: 10px 10px\;\
   background-repeat: no-repeat\;\
-  width: 100%\;\
+  width: 25%\;\
+  color: #0e7094\;\
   font-size: 16px\;\
   padding: 12px 20px 12px 40px\;\
-  border: 1px solid #ddd\;\
+  border: 3px solid #0e7094\;\
+  border-radius: 25px\;\
   margin-bottom: 12px\;\}\
 </style>\
 <input type=\"text\" id=\"myInput\" onkeyup='myFunction\(\)' placeholder=\"Search Here\">\
 <table id=\"myTable\" class=\"hoverTable\" style='width:100%\;border-color:#0e7094\;border-collapse:collapse' border='2'><tbody>\
 <tr>\
-<th style='width:3%\;background-color:#0e7094\;color:white' scope='row'>S.No</th>\
+<th style='height:8px\;width:3%\;background-color:#0e7094\;color:white' scope='row'>S.No</th>\
 <th style='width:18%\;background-color:#0e7094\;color:white' scope='row'>Subdomain</th>\
 <th  style='width:7%\;background-color:#0e7094\;color:white' scope='row'>IP Address</th>\
 <th  style='width:7%\;background-color:#0e7094\;color:white' scope='row'>Web Server</th>\
