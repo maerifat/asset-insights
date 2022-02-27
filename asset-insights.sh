@@ -1,4 +1,4 @@
-subfinder -d domain.com| httpx -ip -web-server -title -status-code -cname -no-color| tr -d "]" | awk -F "[" 'BEGIN{ print "\
+subfinder -d whitehatjr.com| httpx -ip -web-server -title -status-code -cname -no-color| tr -d "]" | awk -F "[" 'BEGIN{ print "\
 <style style='text/css'> \
 .hoverTable{ width:100%\; border-collapse:collapse\; } \
 .hoverTable td{ padding:7px\; border:#0e7094 1px solid\; } \
@@ -17,7 +17,7 @@ subfinder -d domain.com| httpx -ip -web-server -title -status-code -cname -no-co
 </tr>\
 "\
 }{\
-s1 = "<tr><td>"NR"</td>"; \
+s1 = "<tr><td style='background-color:#F8FEFF\;color:#0e7094'>"NR"</td>"; \
 c1 = "<td>"$1"</td>"; \
 c2 = "<td>"$2"</td></tr>";\
 c3 = "<td>"$3"</td>";\
