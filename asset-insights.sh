@@ -1,4 +1,4 @@
-cat filo.txt| tr -d "]" | awk -F "[" 'BEGIN{ print "\
+cat filo.txt | httpx -ip -web-server -title -status-code -cname -no-color | tr -d "]" | awk -F "[" 'BEGIN{ print "\
 <style style='text/css'> \
 .hoverTable{ width:100%\; border-collapse:collapse\; } \
 .hoverTable td{ padding:7px\; border:#0e7094 1px solid\; } \
