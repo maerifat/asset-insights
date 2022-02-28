@@ -14,19 +14,6 @@ cat filo.txt | httpx -ip -web-server -title -status-code -cname -no-color | tr -
   border: 3px solid #0e7094\;\
   border-radius: 25px\;\
   margin-bottom: 12px\;\}\
-#resultsx \{\
-  border-radius: 25px\;\
-  background: #73AD21\;\
-  padding: 20px\;\
-  width: 200px\;\
-  height: 150px\; \}\
-  color: #0e7094\; \}\
- #countx \{\
-  border-radius: 25px\;\
-  background: yellow\;\
-  padding: 20px\;\
-  width: 200px\;\
-  height: 150px\; \}\
 </style>\
 <input type=\"text\" id=\"myInput\" onkeyup='myFunction\(\)' placeholder=\"Search Here\">\
 <a>&emsp;</a>\
