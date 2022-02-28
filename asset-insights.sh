@@ -5,6 +5,8 @@ cat filo.txt | httpx -ip -web-server -title -status-code -cname -no-color | tr -
 .hoverTable tr{ background: white\; } \
 .hoverTable tr:hover { background-color: #ffff99\; } \
 #myInput {\
+  background-image: url('https://www.iconsdb.com/icons/preview/color/0E7094/search-3-xxl.png'\)\;\
+  background-size: 28px 30px \;\
   background-position: 10px 10px\;\
   background-repeat: no-repeat\;\
   width: 25%\;\
