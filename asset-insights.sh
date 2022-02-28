@@ -67,7 +67,6 @@ print s1 c1 c5 c4 c6 c3 c2}END \
           rowCountSet.add\(i)\;\
           rowContainsFilter = true\;\
           totalResults++\;\
-          myArr.push\(i\) \;\
           continue\;\
         \}\
       \}\
